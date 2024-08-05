@@ -84,7 +84,7 @@ const Footer = () => {
             <div className='text'>
               <span>© 2023 INSPIREOTECH SOLUTIONS. ALL RIGHTS RESERVED.</span>
             </div>
-            <div className='connect'>
+            <div className='connect hide-on-mobile'>
               <span>EVOSHPHERE MARKETING</span>
               <span> &nbsp; | &nbsp; </span>
               <span>TERMS & CONDITIONS</span>
