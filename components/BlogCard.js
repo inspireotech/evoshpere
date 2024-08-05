@@ -1,5 +1,5 @@
 import React from "react"
-import { Card } from "./common/Card2"
+import { Card2 } from "./common/Card2"
 import { blogdata } from "@/assets/data/dummydata"
 
 const BlogCard = () => {
@@ -7,7 +7,7 @@ const BlogCard = () => {
     <>
       <div className='container blog-card grid-2 py'>
         {blogdata.map((item) => (
-          <Card data={item} key={item.id} path='blogs' />
+          <Card2 data={item} key={item.id} path='blogs' />
         ))}
       </div>
     </>
