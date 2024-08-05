@@ -13,7 +13,7 @@ const Expertise = () => {
         </div>
         <div className='hero-content grid-4'>
           {expertise.map((item) => (
-            <Card data={item} key={item.id} caption='learn more' path='/' />
+            <Card data={item} key={item.id}  path='/' />
           ))}
         </div>
       </div>
