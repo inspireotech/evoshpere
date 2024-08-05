@@ -5,3 +5,16 @@
 @import "function";
 @import "header";
 @import "global";
+
+@media (max-width: 768px) {
+    .hide-on-mobile {
+      display: none !important;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .hide-on-mobile {
+      display: flex !important;
+    }
+  }
+  
