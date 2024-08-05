@@ -1,4 +1,3 @@
-import Link from "next/link"
 import { TitleSm } from "./Title"
 import { HiOutlineArrowRight } from "react-icons/hi"
 
@@ -10,13 +9,13 @@ export const Card = ({ data, caption, show, path }) => {
           <img src={data.cover} alt={data.title} />
         </div>
         <div className='card-details'>
-          <Link href={`${path}/${data.id}`} className='title-link'>
+          <div className='title-link'>
             <TitleSm title={data.title} />
-          </Link>
+          </div>
           {caption && (
-            <Link href={`${path}/${data.id}`}>
+            <div>
               {caption} <HiOutlineArrowRight className='link-icon' />
-            </Link>
+            </div>
           )}
           <div className='flex'>
             <span> {data.catgeory} </span> {data.date && <span> / {data.date}</span>}
