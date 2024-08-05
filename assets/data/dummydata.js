@@ -23,12 +23,6 @@ export const home = [
 ]
 export const expertise = [
   {
-    id: 1,
-    title: "Web Design & Development",
-    cover: "../images/e1.jpg",
-    desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
-  },
-  {
     id: 2,
     title: "Digital Marketing",
     cover: "../images/e2.jpg",
@@ -38,43 +32,53 @@ export const expertise = [
     id: 3,
     title: "E-Commerce",
     cover: "../images/e3.jpg",
-    desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
+    desc: [{ text: "E-Commerce website design" }, { text: "Shopify Store" }, { text: "Content management" }, { text: "Amazon store" }],
   },
   {
     id: 4,
-    title: "Branding & Creative Services",
+    title: "Branding & Social Media Managment",
     cover: "../images/e4.jpg",
-    desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
+    desc: [{ text: "Visual identity" }, { text: "Custom Printing"}, { text: "Branding for social media" }, { text: "Custom illustrations" }],
   },
+  {
+    id: 1,
+    title: "Web Design & Development",
+    cover: "../images/e1.jpg",
+    desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
+  }
 ]
 export const testimonial = [
   {
     id: 1,
-    name: "Alexander Black",
-    cover: "../images/e1.jpg",
-    post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    cover: '../images/abdullah.jpeg',
+    name: 'Abdullah Imran',
+    post: 'CEO of Inspireotech Solutions',
+    desc:
+      'Evoshpere transformed our Shopify store from a fledgling idea into a thriving business. Their expertise in branding and marketing strategies exceeded our expectations and drove impressive growth. We couldnt have asked for a better partner.',
   },
   {
     id: 2,
-    name: "Diana Green",
-    cover: "../images/e2.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    cover: '../images/asif.jpg',
+    name: 'Asif Luqman Qazi',
+    post: 'Politician',
+    desc:
+      'Working with Evoshpere has been a game-changer for our housing society. Their innovative marketing campaigns and meticulous project management have significantly boosted our communitys visibility and engagement. Highly recommend their services!',
   },
   {
     id: 3,
-    name: "Alexander Black",
-    cover: "../images/e3.jpg",
-    post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    cover: '../images/ayesha.jpeg',
+    name: 'Ayesha Asad',
+    post: 'Founder Kare Beatue',
+    desc:
+      'Evoshpere played a crucial role in launching our brand. Their attention to detail and creative approach to marketing helped us stand out in a competitive market. Thanks to their efforts, our product has become a household name.',
   },
   {
     id: 4,
-    name: "Diana Green",
-    cover: "../images/e4.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    cover: '../images/shayan.jpg',
+    name: 'Shayaan But',
+    post: 'CEO Limeout Services',
+    desc:
+      'Partnering with Evoshpere was the best decision we made for our Shopify store. Their tailored marketing solutions and strategic branding have driven remarkable sales growth and customer loyalty. Were excited to continue our journey with them.',
   },
 ]
 export const showcase = [
@@ -144,80 +148,57 @@ export const brand = [
 export const blogdata = [
   {
     id: 1,
-    title: "Ligula vel urna accumsan placerat",
+    title: "Mastering Modern Marketing: Strategies to Elevate Your Brand",
     cover: "../images/b1.webp",
-    catgeory: "INDUSTRY",
+    catgeory: "Evoshpere Marketing",
     date: "JANUARY 12, 2023",
   },
   {
     id: 2,
-    title: "Don’t underestimate the lorem ipsum dolor amet",
+    title: "From Vision to Victory: Transformative Marketing Techniques for the Digital Age",
     cover: "../images/b2.jpg",
-    catgeory: "TIPS & TRICKS",
+    catgeory: "Evoshpere Marketing",
     date: "OCTOBER 20, 2023",
   },
   {
     id: 3,
-    title: "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
+    title: "Crafting Brand Excellence: The Evoshpere Approach to Superior Marketing",
     cover: "../images/b3.jpg",
-    catgeory: "TIPS & TRICKS",
+    catgeory: "Evoshpere Marketing",
     date: "OCTOBER 9, 2023",
   },
   {
     id: 4,
-    title: "What eleifend posuere tincidunt",
+    title: "The New Marketing Paradigm: Innovation, Strategy, and Brand Elevation",
     cover: "../images/b4.jpg",
-    catgeory: "EVENTS",
+    catgeory: "Evoshpere Marketing",
     date: "OCTOBER 8, 2023",
   },
 ]
 export const teamdata = [
   {
     id: 1,
-    title: "Alexander Black",
-    cover: "../images/t1.jpg",
+    title: "Nayab Ali Raja",
+    cover: "../images/nayaab.jpg",
     post: "FOUNDER, CEO",
   },
   {
     id: 2,
-    title: "Anna Kovalenko",
-    cover: "../images/t2.jpg",
-    post: "FINANCE DIRECTOR",
+    title: "Abdullah Imran",
+    cover: "../images/profile.jpg",
+    post: "CTO , DIRECTOR",
   },
   {
     id: 3,
-    title: "Tiffany White",
-    cover: "../images/t3.jpg",
-    post: "CREATIVE DIRECTOR",
+    title: "Ayesha Asad",
+    cover: "../images/Ayesha2.png",
+    post: "CRM MANAGER",
   },
   {
     id: 4,
-    title: "Richard Greenwood",
-    cover: "../images/t4.jpg",
-    post: "PROGRAMMER",
+    title: "Shayan Zulfiqar",
+    cover: "../images/shayan2.jpg",
+    post: "CREATIVE DIRECTOR",
   },
-  {
-    id: 5,
-    title: "Jessica Brown",
-    cover: "../images/t5.jpg",
-    post: "MARKETING DIRECTOR",
-  },
-  {
-    id: 6,
-    title: "Gregory Windstorm",
-    cover: "../images/t6.jpg",
-    post: "ACCOUNTING MANAGER",
-  },
-  {
-    id: 7,
-    title: "Anna Red",
-    cover: "../images/t7.jpg",
-    post: "PROJECT MANAGER",
-  },
-  {
-    id: 8,
-    title: "Join our team!",
-    cover: "../images/t8.jpg",
-    post: "",
-  },
+  
 ]

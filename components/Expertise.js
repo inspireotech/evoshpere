@@ -9,8 +9,8 @@ const Expertise = () => {
       <section className='expertise'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='Our expertise' />
-            <p>Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor.</p>
+            <Title title='EVOsphere expertise' />
+            <p>Connect , Engage and Grow with EVOsphere!</p>
           </div>
           <div className='hero-content grid-4'>
             {expertise.map((item) => (

@@ -10,14 +10,15 @@ const Footer = () => {
         <div className='container'>
           <div className='grid-4'>
             <div className='logo'>
-              <TitleLogo title='creative' caption='7' className='logobg' />
+              <TitleLogo title='shpere' caption='EVO' className='logobg' />
               <br />
               <span>
                 Questions? Reach us <br /> Monday – Friday from 9 am to 6 pm
               </span>
               <br />
               <br />
-              <h3>+1 001 234 5678</h3>
+              <h3>+92-309-9923222
+              </h3>
               <br />
               <button className='button-primary'>Request for quote</button>
             </div>
@@ -61,22 +62,18 @@ const Footer = () => {
               <h3>CONNECT</h3>
               <div className='connect'>
                 <li>
-                  <Link href='/'>
+                  <Link href='https://www.facebook.com/share/fHe21VZYNMbSNmCM/?mibextid=LQQJ4d'>
                     <BsFacebook size={25} />
                   </Link>
                 </li>
+                
                 <li>
-                  <Link href='/'>
-                    <AiFillBehanceCircle size={25} />
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/'>
+                  <Link href='https://www.instagram.com/nayabaliraja_?igsh=MTMzd2ZhNmQ0bThvcg%3D%3D&utm_source=qr '>
                     <AiFillInstagram size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href='/'>
+                  <Link href='https://www.linkedin.com/in/nayab-ali-raja-76b86528b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'>
                     <AiFillLinkedin size={25} />
                   </Link>
                 </li>
@@ -85,10 +82,10 @@ const Footer = () => {
           </div>
           <div className='legal connect py'>
             <div className='text'>
-              <span>© 2023 THE SEVEN. ALL RIGHTS RESERVED.</span>
+              <span>© 2023 INSPIREOTECH SOLUTIONS. ALL RIGHTS RESERVED.</span>
             </div>
             <div className='connect'>
-              <span>GORKCODER COMPANY</span>
+              <span>EVOSHPHERE MARKETING</span>
               <span> &nbsp; | &nbsp; </span>
               <span>TERMS & CONDITIONS</span>
             </div>

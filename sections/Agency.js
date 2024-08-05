@@ -16,8 +16,8 @@ const Agency = () => {
 
           <div className='content flex1'>
             <div className='left w-60 py'>
-              <TitleSm title='Turning your business ideas into smart digital products since 2001' />
-              <p className='desc-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus eleifend magna, molestie iaculis sem pulvinar eu. Etiam non dui felis. Proin posuere dapibus magna laoreet posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim, sem eget sollicitudin tempor, libero velit aliquam enim, vel egestas tortor ante quis sem.</p>
+              <TitleSm title='Turning your business ideas into smart digital products since 2012' />
+              <p className='desc-p'>Evoshpere Services: Elevate your brand with strategic E-commerce Marketing, engaging Social Media Management, stunning Web Development, inspiring Graphic Designing, and high-impact Ads Creation. Transform your brand's presence and performance with us..</p>
               <div className='grid-3'>
                 <div className='box'>
                   <h1 className='indigo'>10+</h1>
@@ -45,7 +45,7 @@ const Agency = () => {
             <div className='right w-60 ml'>
               <TitleSm title='Our mission' />
               <br />
-              <p className='misson-p'>Fusce fringilla justo vel dui consectetur, fringilla maximus ante malesuada. Suspendisse facilisis nisl augue, ut sollicitudin lectus ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis esse vitae officia nostrum facere. Fugiat voluptates, expedita dolore at perferendis quae libero fuga consequatur veniam, eius non fugit nulla vitae?</p>
+              <p className='misson-p'>At Evoshpere Services, our mission is to empower brands to reach their full potential through innovative and strategic marketing solutions. We are dedicated to delivering excellence in E-commerce Marketing, Social Media Management, Web Development, Graphic Designing, and Ads Creation. Our goal is to transform your brand’s presence and performance by crafting compelling narratives, creating visually stunning designs, and implementing data-driven strategies that resonate with your audience and drive results. We strive to build lasting partnerships with our clients, fostering growth, creativity, and success in every project we undertake.</p>
             </div>
           </div>
         </div>

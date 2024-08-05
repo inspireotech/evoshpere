@@ -5,6 +5,8 @@ import { BiUserCircle } from "react-icons/bi"
 import { BsFacebook } from "react-icons/bs"
 import { FiHeadphones, FiHelpCircle } from "react-icons/fi"
 import { IoLocationOutline } from "react-icons/io5"
+import Link from "next/link"
+
 
 const Contact = () => {
   return (
@@ -21,38 +23,43 @@ const Contact = () => {
               <div className='contact-deatils'>
                 <div className='box'>
                   <FiHeadphones size={30} className='icons' />
-                  <h3>1-001-234-5678</h3>
+                  <h3>+92-309-9923222</h3>
                   <span>Call us: Mon - Fri 9:00 - 19:00</span>
                 </div>
                 <div className='box'>
                   <IoLocationOutline size={30} className='icons' />
-                  <h3>New York</h3>
-                  <span>990 Madison Ave, Midtown Manhattan, 2th Floor, NY 10022</span>
+                  <h3>Islamabad, Pakistan</h3>
+                  <span>Office no 1 , first floor , Altaf arcade ,  talimuri road  kalma chok Rawalpindi</span>
                 </div>
                 <div className='box'>
                   <FiHelpCircle size={30} className='icons' />
-                  <h3>info@dream-theme.com</h3>
+                  <h3>info@evospheremarketing.com</h3>
                   <span>Drop us a line anytime!</span>
                 </div>
                 <div className='box'>
                   <BiUserCircle size={30} className='icons' />
-                  <h3>hr@dream-theme.com</h3>
-                  <span>Career at Seven Creative</span>
+                  <h3> hr@evospheremarketing.com</h3>
+                  <span>Career at Evoshpere?</span>
                 </div>
               </div>
               <ul>
-                <li className='icon'>
-                  <BsFacebook size={25} />
+              <li>
+                  <Link href='https://www.facebook.com/share/fHe21VZYNMbSNmCM/?mibextid=LQQJ4d'>
+                    <BsFacebook size={25} />
+                  </Link>
                 </li>
-                <li className='icon'>
-                  <AiFillBehanceCircle size={25} />
+                
+                <li>
+                  <Link href='https://www.instagram.com/nayabaliraja_?igsh=MTMzd2ZhNmQ0bThvcg%3D%3D&utm_source=qr '>
+                    <AiFillInstagram size={25} />
+                  </Link>
                 </li>
-                <li className='icon'>
-                  <AiFillInstagram size={25} />
+                <li>
+                  <Link href='https://www.linkedin.com/in/nayab-ali-raja-76b86528b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'>
+                    <AiFillLinkedin size={25} />
+                  </Link>
                 </li>
-                <li className='icon'>
-                  <AiFillLinkedin size={25} />
-                </li>
+                
               </ul>
             </div>
             <div className='right w-70'>
