@@ -1,5 +1,5 @@
 import React from "react"
-import { Card } from "./common/Card"
+import { Card } from "./common/Card2"
 import { blogdata } from "@/assets/data/dummydata"
 
 const BlogCard = () => {
